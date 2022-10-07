@@ -11,13 +11,20 @@
 </head>
 
 <body>
-    <form action="index.php" method="POST">
-        <input type="text" name="nome" id="nome" placeholder="nome">
+    <form action="/" method="POST">
+        <span>Digite um site</span>
+        <input type="text" name="site" id="site" placeholder="site">
         <input type="submit" value="Enviar">
     </form>
 
+ <a href="/teste.php"><span>Clique aqui para a cópia</span></a>
+<?php
+    include 'pyForm.php';
+    ?>
+
+
     <?php
-    include 'phpForm.php';
+    // include 'phpForm.php';
     ?>
 
 </body>

@@ -2,6 +2,7 @@
 <?php
     if(array_key_exists('nome', $_POST)) :
         $nome=$_POST["nome"];
+        
         ?>
 
         
@@ -13,5 +14,4 @@
         
         <?php
       endif;
-
-?>
+  ?>
